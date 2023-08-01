@@ -1,0 +1,41 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+.list-items-container {
+  list-style-type: none;
+}
+.category-heading {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+}
+.category-name {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1cad6;
+  border: 2px solid #c1cad6;
+  margin-top: 50px;
+  padding: 5px 10px;
+}
+.search-input {
+  border-width: 0px;
+  background-color: #c1cad6;
+  padding: 5px 10px;
+  height: 100%;
+}
+/* Write your CSS here */
